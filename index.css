@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+.container{
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    /* flex-direction: row | row-reverse | column | column-reverse; */
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap | wrap | wrap-reverse; */
+    /* flex-flow: <flex-direction> <flex-wrap>; */
+    justify-content: flex-start;
+    /* justify-content: flex-start | flex-end | center | space-between | space-around; */
+}
+div.box{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: springgreen;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
